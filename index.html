@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slides</title>
+    <link rel="icon" sizes="192x192" href="assets/border.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slidesstyle.css">
+</head>
+
+<body>
+    <!-- this seems like the perfect project for react -->
+    <section class="section" id="intro">
+        <h1>your host for today</h1>
+        <h1 class="chapter-title">KATAYA</h1>
+    </section>
+
+    <article id="accessibility">
+
+        <section class="section" id="acs-s1">
+            <h2 class="chapter-title">Design Problems</h2>
+        </section>
+        <section class="section" id="acs-s2">
+            <img src="./assets/t1disignprob.jpg" alt="web page design problems">
+            <p id="chapter-title-subtext">design problems</p>
+        </section>
+        <section class="section" id="acs-s3">
+            <img src="./assets/t1disignprob.jpg" alt="web page design problems">
+            <img src="./assets/t1disignsol.jpg" alt="solution to those problems">
+            <ul>
+                <li>The text is low contrast,</li>
+                <li>The "Remember details?" label isn't associated with the checkbox</li>
+                <li>Having labels on the left and fields on the right makes it hard for many people to associate</li>
+            </ul>
+            <p id="chapter-title-subtext">design problems</p>
+        </section>
+
+    </article>
+
+    <section class="section" id="s5">
+        h1.
+    </section>
+ 
+    <div id='sense'>
+        <aside>
+
+            <a href="" class="arrow" id="leftArrow">«</a><a href="" class="arrow" id="rightArrow">»</a>
+        </aside>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<li tabindex="0" class="checkbox" checked>
+      Receive promotional offers
+    </li>
+    screen reader will give no indication that the element is meant to be a checkbox
+    
+    <li tabindex="0" class="checkbox" role="checkbox" checked aria-checked="true">
+      Receive promotional offers
+    </li>

@@ -1,0 +1,56 @@
+/********************************
+* *slide 0
+*********************************/
+#intro{
+    background-image: linear-gradient(to bottom, #30cfd0 0%, #fed6e3 100%);
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    color: white;
+    text-align: center;
+}
+    #intro h1{
+        padding-bottom: 5vh;}
+
+    #intro .chapter-title{
+        padding-bottom: 30vh;}
+
+/********************************
+* *Article 1
+*********************************/
+
+#accessibility{
+    color: black;;
+}
+    #accessibility section{
+        /* background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); */
+        background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        background-color: transparent;
+    }
+    
+    #acs-s1{
+        display: grid;
+        place-content: center;
+    }
+    #acs-s2{
+        display: grid;
+        place-content: center;
+    }
+        #acs-s2 img{
+                height: 85vh;
+                max-width: 100%;
+        }
+    #acs-s3{
+        padding: 5vh 5vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;
+    }
+        #acs-s3 img{
+            max-width: 47%;
+            margin: auto;
+        }
+        #acs-s3 ul{
+            margin: auto
+        }
+
